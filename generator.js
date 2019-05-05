@@ -14,6 +14,6 @@ function getRandomInt(min, max) {
 
 adjectivesNO.forEach(function(a) {
     nounsNO.forEach(function(n) {
-        document.write("<br> Din " + a + " " + n)
+        document.write("Din " + a + " " + n + "<br>")
     });
 });
